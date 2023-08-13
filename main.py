@@ -49,7 +49,7 @@ def main() -> None:
             {"role": "user", "content": news_content},
             # {"role": "user", "content": "Also provide the answer to the question and 3 important vocabularies in the news article."},
         ],
-        temperature=0.3,
+        temperature=0,
     )
 
     quiz = response['choices'][0]['message']['content']  # type: ignore
