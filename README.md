@@ -2,7 +2,7 @@
 
 ### Description
 
-This Python program utilizes OpenAI's ChatGPT API, alongside web scraping tools, to generate multiple-choice reading comprehension quizzes based on articles from the NHK Easy News website. These quizzes are tailored for JLPT N2 level students. The program selects a random news article, extracts its content, and then leverages ChatGPT to create a relevant quiz.
+This Python program utilizes OpenAI's ChatGPT API, alongside web scraping tools, to generate multiple-choice reading comprehension quizzes based on articles from the NHK Easy News website. The program selects a random news article, extracts its content, and then leverages ChatGPT to create a relevant quiz.
 
 ### Prerequisites
 
@@ -25,7 +25,7 @@ pip install openai chardet requests beautifulsoup4
 api_key = "YOUR_API_KEY_HERE"
 ```
 
-2. Make sure that the `openai_key.py` file is in the same directory as the main program file.
+2. Ensure the `openai_key.py` file is in the same directory as the main program file.
 
 ### Usage
 
