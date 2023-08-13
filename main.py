@@ -47,7 +47,7 @@ def main() -> None:
             {"role": "system",
                 "content": "You are a helpful assistant who creates a multiple-choice reading comprehension quiz for JLPT N2 level students based on a given news article prompted by the user. (2 questions in Japanese, 3 choices each)"},
             {"role": "user", "content": news_content},
-            # {"role": "user", "content": "Also provide the answer to the question and 3 important vocabularies in the news article."},
+            {"role": "user", "content": "Also provide the answer to the question and 3 important vocabularies in the news article."},
         ],
         temperature=0,
     )
